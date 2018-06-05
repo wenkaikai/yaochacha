@@ -1,0 +1,30 @@
+<div class="navbar common-header">
+    <div class="container-fluid">
+        <div class="row margin-0-75">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav">
+                    <i class="glyphicon glyphicon-align-justify"></i>
+                </button>
+                <a href="" class="logo pull-left"></a>
+            </div>
+            <div class="navbar-collapse collapse" id="nav">
+                <ul class="nav navbar-nav navbar-right ">
+                    <li><a href="/" class="text-center current">首页</a></li>
+                    <li><a href="/product_introduction" class="text-center">产品介绍</a></li>
+                    <li><a href="/news_information" class="text-center">新闻资讯</a></li>
+                    <li><a href="/about_us" class="text-center">关于我们</a></li>
+                    <li><a href="" class="text-center">api 接口服务</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    $("#nav").on("show.bs.collapse",function(){
+        $(".navbar-collapse").addClass("mobile-header")
+    })
+    $("#nav").on("hidden.bs.collapse",function(){
+        $(".navbar-collapse").removeClass("mobile-header")
+    })
+</script>
+
