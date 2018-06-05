@@ -361,8 +361,9 @@ footer{
 /*product-introduction*/
 .section-product-1{
     height:500px;
-    background-size:cover;
     background:url(../img/product-bg1.jpg) no-repeat center center;
+     background-size:cover;
+
 }
 .section-product-1 h2{
     margin-top:200px;
@@ -436,9 +437,10 @@ footer{
 /*news*/
 .section-news-1{
     height:500px;
-    background-size:cover;
     background:url(../img/news-bg1.jpg) no-repeat center center;
     text-align:center;
+   background-size:cover;
+
 
 }
 .section-news-1 p{
@@ -493,9 +495,10 @@ footer{
  */
 .section-aboutUs-1{
     height:500px;
-    background-size:cover;
     background:url(../img/aboutUs-bg1.jpg) no-repeat center center;
     text-align:center;
+    background-size:cover;
+
 
 }
 .iphone-qr,.iphone-text{height:100%;position:relative;}
